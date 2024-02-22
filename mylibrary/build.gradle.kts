@@ -44,7 +44,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.kamlesh1specindia"
             artifactId = "kotlinmessage"
-            version = "1.0"
+            version = "1.2"
 
             afterEvaluate {
                 from(components["release"])
