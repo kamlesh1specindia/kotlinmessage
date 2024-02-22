@@ -1,3 +1,5 @@
+import javax.print.DocFlavor.URL
+
 pluginManagement {
     repositories {
         google()
@@ -10,6 +12,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url = uri("https://www.jitpack.io") }
+
     }
 }
 
